@@ -24,7 +24,7 @@ mongoose.connect(
 // const db = require("./models");
 
 // routes here
-app.use(require("./routes/api-routes.js"));
+app.use(require("./routes/api-routes"));
 
 
 app.listen(PORT, () => {
